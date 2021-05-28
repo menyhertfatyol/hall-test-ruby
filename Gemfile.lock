@@ -1,0 +1,14 @@
+GEM
+  specs:
+    epoll (0.3.0)
+    rpi_gpio (0.5.0)
+      epoll (~> 0.3)
+
+PLATFORMS
+  x86_64-darwin-20
+
+DEPENDENCIES
+  rpi_gpio (~> 0.5.0)
+
+BUNDLED WITH
+   2.2.18
