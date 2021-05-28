@@ -1,7 +1,7 @@
 require 'rpi_gpio'
 
 RPi::GPIO.set_numbering :board
-RPi::GPIO.setup 11, :as => :input, :pull => :up
+RPi::GPIO.setup 11, as: :input, pull: :up
 
 begin
   while true
